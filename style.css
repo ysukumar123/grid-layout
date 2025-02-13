@@ -1,6 +1,6 @@
 /* This div selector is just to see borders while we practice layout */
 div {
-    border: 1px solid crimson
+    border: 1px solid rgb(0, 0, 0)
 }
 
 /* This is where the actual layout begins */
@@ -40,5 +40,20 @@ div {
     text-align: center ;
     color: aliceblue;
     padding-right: 30px;
-    
 }
+
+ /* FLEXBOX */
+    
+.flexcontainer {
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex: 40%;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+}
+
